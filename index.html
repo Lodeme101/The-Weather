@@ -16,19 +16,30 @@
     <div class="container">
       <header>
         <form>
-          <input type="search" placeholder="Enter a city..." required />
-          <input type="submit" value="Search" />
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-input"
+          />
+          <input type="submit" value="Search" class="submit-input" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Paris</h1>
-          <p>
-            Tuesday, 14:49, scattered clouds <br />
-            Humidity: 66%, Wind: 3.13km/h
-          </p>
+        <div class="container-content">
+          <div>
+            <h1>Paris</h1>
+            <p>
+              Tuesday, 14:49, scattered clouds <br />
+              Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
+            </p>
+          </div>
+          <div class="current-weather">
+            <span class="current-weather-icon">🌤️</span>
+            <span class="current-weather-temp">12</span>
+            <span class="current-weather-unit">°C</span>
+          </div>
         </div>
-        <div>🌤️ 12°C</div>
       </main>
       <footer>
         Built by
